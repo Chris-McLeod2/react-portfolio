@@ -4,9 +4,11 @@ import Project from '../Project';
 import projects from '../../assets/projects';
 export default function Portfolio() {
   return (
+    
     <Card className="pb-5 pt-5">
-    {projects.map((project) => (
+    {projects.map((project, key) => (
       <Project
+        key = {key}
         name={project.name}
         src={project.src}
         git={project.git}
@@ -14,5 +16,6 @@ export default function Portfolio() {
       />
     ))}
   </Card>
+
   )
 }
