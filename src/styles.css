@@ -21,6 +21,7 @@ background-size: cover;
 }
 
 html {
+	color: white;
 	background: no-repeat center center fixed;
 	background-color: #7f5a83;
 	background-image: linear-gradient(315deg, #7f5a83 0%, #0d324d 74%);
@@ -38,17 +39,36 @@ div {
 		}
 
 .nav {
-	background-color: black;
+	background-image: url('./assets/images/vector1.jpg');
+	background-size: cover;
 }
 
 .project-cards {
-	background-color: #000000;
-background-image: linear-gradient(315deg, #000000 0%, #b82e1f 74%);
+	color: white;
 }
 
 .card {
 	background-color: white;
 }
+
+
+.nav-tabs {
+	border-bottom: none !important;
+}
+
 p {
 	color: white;
+}
+
+div {
+	color: white;
+}
+
+h1 {
+	color: white;
+}
+
+a {
+	color: white !important;
+	cursor: pointer;
 }

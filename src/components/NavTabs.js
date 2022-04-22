@@ -1,14 +1,15 @@
 import React from 'react';
+import {useNavigate} from 'react-router-dom'
 
 
-
-function NavTabs({ currentPage, handlePageChange }) {
+function NavTabs({ currentPage }) {
+  const navigate = useNavigate();
   return (
     <ul className="nav nav-tabs">
       <li className="nav-item">
         <a
-          href="#home"
-          onClick={() => handlePageChange('Home')}
+         
+          onClick={() => navigate('/')}
   
 
           className={currentPage === 'Home' ? 'nav-link active' : 'nav-link'}
@@ -19,8 +20,8 @@ function NavTabs({ currentPage, handlePageChange }) {
       
       <li className="nav-item">
         <a
-          href="#Portfolio"
-          onClick={() => handlePageChange('Portfolio')}
+        
+          onClick={() => navigate('/portfolio')}
        
 
           className={currentPage === 'Portfolio' ? 'nav-link active' : 'nav-link'}
@@ -31,10 +32,10 @@ function NavTabs({ currentPage, handlePageChange }) {
 
       <li className="nav-item">
         <a
-          href="#Resume"
+        
    
 
-          onClick={() => handlePageChange('Resume')}
+          onClick={() => navigate('/resume')}
           className={currentPage === 'Resume' ? 'nav-link active' : 'nav-link'}
         >
           Resume
@@ -43,10 +44,10 @@ function NavTabs({ currentPage, handlePageChange }) {
 
       <li className="nav-item">
         <a
-          href="#contact"
+          
 
 
-          onClick={() => handlePageChange('Contact')}
+          onClick={() => navigate('/contact')}
           className={currentPage === 'Contact' ? 'nav-link active' : 'nav-link'}
         >
           Contact
