@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function Home() {
   return (
-    <div>
+    <div className= 'linear'>
       <h1>About me</h1>
       <p>
       Nunc pharetra finibus est at efficitur. Praesent sed congue diam.

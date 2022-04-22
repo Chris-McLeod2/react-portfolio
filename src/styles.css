@@ -11,3 +11,44 @@
 	margin: 1em 1em;
 
 }
+
+.linear {
+background: no-repeat center center fixed;
+background-color: #7f5a83;
+background-image: linear-gradient(315deg, #7f5a83 0%, #0d324d 74%);
+background-size: cover;
+
+}
+
+html {
+	background: no-repeat center center fixed;
+	background-color: #7f5a83;
+	background-image: linear-gradient(315deg, #7f5a83 0%, #0d324d 74%);
+	background-size: cover;
+	
+	}
+
+
+div {
+		background: no-repeat center center fixed;
+		background-color: #7f5a83;
+		background-image: linear-gradient(315deg, #7f5a83 0%, #0d324d 74%);
+		background-size: cover;
+		
+		}
+
+.nav {
+	background-color: black;
+}
+
+.project-cards {
+	background-color: #000000;
+background-image: linear-gradient(315deg, #000000 0%, #b82e1f 74%);
+}
+
+.card {
+	background-color: white;
+}
+p {
+	color: white;
+}

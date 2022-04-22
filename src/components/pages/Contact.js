@@ -46,7 +46,7 @@ export default function Contact() {
 	}
 
 	return (
-		<section>
+		<section className="linear">
 			<div className="center">
 				<h2 className="page-header">Contact Me</h2>
 			</div>

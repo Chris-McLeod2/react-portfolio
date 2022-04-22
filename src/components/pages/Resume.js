@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function Resume() {
 	return (
-		<section>
+		<section className="linear">
 			<div>
 				<h1>My Resume</h1>
 			</div>

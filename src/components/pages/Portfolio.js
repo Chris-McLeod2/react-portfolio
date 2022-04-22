@@ -4,12 +4,12 @@ import Project from '../Project';
 import projects from '../../assets/projects';
 export default function Portfolio() {
   return (
-   <div className='projectContainer'>
+   <div className='projectContainer linear'>
     
 
   {projects.map((project, key) => (
-    <Card style={{width: "40%"}} >
-      <Project 
+    <Card className='project-cards' style={{width: "40%"}} >
+      <Project className='card'
         key = {key}
         name={project.name}
         src={project.src}
