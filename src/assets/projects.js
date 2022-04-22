@@ -1,10 +1,10 @@
 const projects = [
     {
-      name: '',
-    //   src: img1,
-      alt: '',
-      git: '',
-      live: '',
+      name: 'Brewber',
+      src: '/assets/BrewberEats.png',
+      alt: 'application to find breweries near you based on city search',
+      git: 'https://github.com/Chris-McLeod2/Brewber',
+      live: 'https://hmlessard.github.io/Brewber/',
     },
     { 
       name: '',
