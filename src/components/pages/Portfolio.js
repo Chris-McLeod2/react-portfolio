@@ -12,7 +12,7 @@ export default function Portfolio() {
 
   {projects.map((project, key) => (
     <Card className='project-cards' style={{width: "40%"}} >
-      <Project className='card'
+      <Project className='card'   
         key = {key}
         name={project.name}
         src={project.src}

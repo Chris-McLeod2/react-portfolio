@@ -31,20 +31,6 @@ const projects = [
       git: 'https://github.com/Chris-McLeod2/WeatherAPI',
       live: 'https://chris-mcleod2.github.io/WeatherAPI/',
     },
-    {
-      name: '',
-    //   src: img5,
-      alt: '',
-      git: '',
-      live: '',
-    },
-     {
-      name: '',
-    //   src: img6,
-      alt: '',
-      git: '',
-      live: '',
-    },
   ];
   
   export default projects;
