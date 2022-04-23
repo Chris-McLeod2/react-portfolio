@@ -2,6 +2,9 @@ import React from 'react';
 import { Card } from 'react-bootstrap';
 import Project from '../Project';
 import projects from '../../assets/projects';
+
+
+
 export default function Portfolio() {
   return (
    <div className='projectContainer linear'>

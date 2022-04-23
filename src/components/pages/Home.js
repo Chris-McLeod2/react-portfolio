@@ -4,14 +4,12 @@ export default function Home() {
   return (
     <div className= 'linear'>
       <h1>About me</h1>
-      <p>
-      Nunc pharetra finibus est at efficitur. Praesent sed congue diam.
-        Integer gravida dui mauris, ut interdum nunc egestas sed. Aenean sed
-        mollis diam. Nunc aliquet risus ac finibus porta. Nam quis arcu non
-        lectus tincidunt fermentum. Suspendisse aliquet orci porta quam semper
-        imperdiet. Praesent euismod mi justo, faucibus scelerisque risus cursus
-        in. Sed rhoncus mollis diam, sit amet facilisis lectus blandit at.
+      <p className='about'>
+      My name is Chris McLeod, im a full stack web developer currently attending the University of Wisconsin Coding Bootcamp. I have a strong interest in coding and so far have specialized 
+      primarily in ui/ux design but am also proficient in other areas aswell listed in my resume. I enjoy spending time learning new languages or new ways to do things with code and am 
+      looking for opportunities to continue learning and become a better software developer.
       </p>
     </div>
   );
 }
+

@@ -4,10 +4,7 @@ export default function Resume() {
 	return (
 		<section className="linear">
 			<div>
-				<h1>My Resume</h1>
-			</div>
-			<div>
-				<p>downloadble resume goes here?</p>
+			<a href={require("../../assets/Resume.pdf")} className="resume" download>Download Resume</a>
 			</div>
 			<div>
 				<h5>Front-End Proficiencies</h5>
@@ -43,6 +40,7 @@ export default function Resume() {
 				<ol>
 					<li>MySQL</li>
 					<li>Sequelize</li>
+					<li>GraphQL</li>
 					<li>NoSQL</li>
 					<li>MongoDB</li>
 					<li>Mongoose</li>
