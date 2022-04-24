@@ -95,4 +95,13 @@ a {
 	
 }
 
-
+.footer { 
+	display: flex; 
+	align-items: center; 
+	justify-content: center; 
+  } 
+.footerimg {
+	height: 3vw;
+	margin: 0 5em 0 5em;
+	text-align: center;
+}
