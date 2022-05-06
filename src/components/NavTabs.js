@@ -42,7 +42,7 @@ function NavTabs({ currentPage }) {
         </a>
       </li>
 
-      <li className="nav-item">
+      {/* <li className="nav-item">
         <a
           
 
@@ -52,7 +52,7 @@ function NavTabs({ currentPage }) {
         >
           Contact
         </a>
-      </li>
+      </li> */}
     </ul>
   );
 }
