@@ -2,7 +2,15 @@ import img1 from './images/BrewberEats.png'
 import img2 from './images/Nerd-Talk.png'
 import img3 from './images/Budget-Tracker.png'
 import img4 from './images/WeatherApp.png'
+import img5 from './images/Propagatorz.png'
 const projects = [
+  {
+    name: 'Propagatorz',
+    src: img5,
+    alt: 'plant help line application',
+    git: 'https://github.com/alinz07/Propagatorz',
+    live: 'https://propagatorz-plant-help.herokuapp.com/',
+  },
     {
       name: 'Brewber',
       src: img1,
