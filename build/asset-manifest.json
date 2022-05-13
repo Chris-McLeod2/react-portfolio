@@ -1,19 +1,24 @@
 {
   "files": {
-    "main.css": "/react-portfolio/static/css/main.8bb206f5.css",
-    "main.js": "/react-portfolio/static/js/main.1b9022f3.js",
+    "main.css": "/react-portfolio/static/css/main.5a669ac2.css",
+    "main.js": "/react-portfolio/static/js/main.2004af57.js",
     "static/media/BrewberEats.png": "/react-portfolio/static/media/BrewberEats.07e456868ba005d401d0.png",
-    "static/media/Resume.pdf": "/react-portfolio/static/media/Resume.5703fa923d3f1e66df0d.pdf",
+    "static/media/Propagatorz.png": "/react-portfolio/static/media/Propagatorz.4e87b8816f8e90a17312.png",
+    "static/media/Portrait.jpg": "/react-portfolio/static/media/Portrait.d8d9d9b76ec3df13e7b2.jpg",
     "static/media/Nerd-Talk.png": "/react-portfolio/static/media/Nerd-Talk.a41601d079f72599953a.png",
     "static/media/Budget-Tracker.png": "/react-portfolio/static/media/Budget-Tracker.9551fedcbc3b43d2ae20.png",
     "static/media/WeatherApp.png": "/react-portfolio/static/media/WeatherApp.8a962ec5eafaf4484272.png",
+    "static/media/Resume.pdf": "/react-portfolio/static/media/Resume.e194bb086919b4485520.pdf",
+    "static/media/Email.png": "/react-portfolio/static/media/Email.40d0b42e4a4c33a0b09d.png",
+    "static/media/Github.jpg": "/react-portfolio/static/media/Github.200b78334b767082b56a.jpg",
+    "static/media/LinkedIn.png": "/react-portfolio/static/media/LinkedIn.f291abfec32f0f22ed78.png",
     "static/media/vector1.jpg": "/react-portfolio/static/media/vector1.749bab23ea867dfcc672.jpg",
     "index.html": "/react-portfolio/index.html",
-    "main.8bb206f5.css.map": "/react-portfolio/static/css/main.8bb206f5.css.map",
-    "main.1b9022f3.js.map": "/react-portfolio/static/js/main.1b9022f3.js.map"
+    "main.5a669ac2.css.map": "/react-portfolio/static/css/main.5a669ac2.css.map",
+    "main.2004af57.js.map": "/react-portfolio/static/js/main.2004af57.js.map"
   },
   "entrypoints": [
-    "static/css/main.8bb206f5.css",
-    "static/js/main.1b9022f3.js"
+    "static/css/main.5a669ac2.css",
+    "static/js/main.2004af57.js"
   ]
 }
